@@ -146,9 +146,6 @@ message.channel.send('#profile')
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
-  if(message.content === 'cr2'){
-message.channel.send("#credit "+"<@" + myid + ">" + "5000")
-  }
 });
  
 client3.on('message', message => {
